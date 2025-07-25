@@ -29,7 +29,9 @@ setup(
     description='A robot-agnostic teleoperation node to convert keyboard'
                 'commands to Twist messages.',
     license='BSD',
-    tests_require=['pytest'],
+    extras_require={
+        'test': ['pytest'],
+    }, 
     entry_points={
         'console_scripts': [
             'teleop_twist_keyboard = teleop_twist_keyboard:main'
