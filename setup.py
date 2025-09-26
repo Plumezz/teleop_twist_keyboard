@@ -31,7 +31,7 @@ setup(
     license='BSD',
     extras_require={
         'test': ['pytest'],
-    }, 
+    },
     entry_points={
         'console_scripts': [
             'teleop_twist_keyboard = teleop_twist_keyboard:main'
